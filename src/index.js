@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDom from  "react-dom"
+// import App from "./app"
+// import {AppComponentOne,AppComponentTwo} from "./app";
+// import {Test0,Test2,Test3} from "./Comp";
+import Func from "./app"
+import Fakeamazon from "./Components/classComponent/Fakeamazon"
+// const root=ReactDom.createRoot(document.getElementById("root"))
+// root.render(<h1>My first react app</h1>)
+// root.render(<img src="https://images.unsplash.com/photo-1612151855475-877969f4a6cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGQlMjBpbWFnZXxlbnwwfHwwfHw%3D&w=1000&q=80"></img>)
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDom.render(
+    <>
+   {/* <Func></Func> */}
+   <Fakeamazon></Fakeamazon>
+   </>
+, 
+document.getElementById("root"))
+
+

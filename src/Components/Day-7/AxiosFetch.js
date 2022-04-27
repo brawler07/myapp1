@@ -1,0 +1,1 @@
+// axios.get("https://jsonplaceholder.typicode.com/users").then((res)=>this.setState({result:res.data})).catch((err)=>console.log("error"))
